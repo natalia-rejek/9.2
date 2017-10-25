@@ -6,7 +6,7 @@ console.log(allNames);
 
 var newName = 'Marian';
 if (allNames.indexOf(newName) === -1) {
-    allNames.push(newName);;
+    allNames.push(newName);
 } else {
     console.log('Wyrazenie niespelnione');
 }
